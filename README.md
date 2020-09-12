@@ -8,20 +8,21 @@
 
 ## Contents:
 - Base extensions   
-hosts: 2.7.13 (0826)   
-module: 12.5 (0903)   
-code: 125   
+hosts: 3.0.1 (0908)   
+module: 12.6 (0912)   
+code: 126   
 
 - Unique domains   
-unified: 55,653   
-fakenews: 57,833   
-gambling: 57,977   
-porn: 75,737   
+unified: 56,061   
+fakenews: 58,241   
+gambling: 58,385   
+porn: 76,145   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
+- [@Zackptg5](https://github.com/Zackptg5) / MMT-Extended
 - [@StevenBlack](https://github.com/StevenBlack) / Hosts
-- [@JumbomanXDA](https://t.me/JumbomanXDA) / Custom installation script
+- [@JumbomanXDA](https://github.com/JumbomanXDA) / Custom installation script
 
 ## Extras:
 - Donation: [PayPal](https://paypal.me/gloeyisk)   
