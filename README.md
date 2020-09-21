@@ -13,10 +13,10 @@ module: 12.7 (0915)
 code: 127   
 
 - Unique domains   
-unified: 56,634   
-fakenews: 58,814   
-gambling: 58,958   
-porn: 76,718   
+unified: 56,595   
+fakenews: 58,775   
+gambling: 58,919   
+porn: 76,679   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
