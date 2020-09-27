@@ -3,20 +3,20 @@
 ## Overview:
 - Essential repack for latest Unified hosts, with 3 additional extensions.
 - Built upon Unified Release by **@StevenBlack**.
-- Patching process is handled by a command script, which detects the default hosts file location.
+- Patching process is handled by a command script, which detects default hosts file location.
 - Currently support live install only.
 
 ## Contents:
 - Base extensions   
-hosts: 3.0.2 (0915)   
-module: 12.7 (0915)   
-code: 127   
+hosts: 3.0.4 (0926)   
+module: 12.9 (0927)   
+code: 129   
 
 - Unique domains   
-unified: 56,595   
-fakenews: 58,775   
-gambling: 58,919   
-porn: 76,679   
+unified: 56,948   
+fakenews: 59,128   
+gambling: 59,272   
+porn: 77,032   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
