@@ -8,15 +8,15 @@
 
 ## Contents:
 - Base extensions   
-hosts: 3.1.1 (1019)   
-module: 13.4 (1020)   
-code: 134   
+hosts: 3.1.2 (1029)   
+module: 13.5 (1030)   
+code: 135   
 
 - Unique domains   
-unified: 57,557   
-fakenews: 59,737   
-gambling: 59,881   
-porn: 78,064   
+unified: 58,712   
+fakenews: 60,907   
+gambling: 61,036   
+porn: 79,731   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
