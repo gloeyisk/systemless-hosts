@@ -8,9 +8,9 @@
 
 ## Contents:
 - Base extensions   
-hosts: 3.2.1 (1114)   
-module: 14.0 (1114)   
-code: 140   
+hosts: 3.2.3 (1117)   
+module: 14.1 (1117)   
+code: 141   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
