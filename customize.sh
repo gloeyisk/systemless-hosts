@@ -1,68 +1,69 @@
-##########################################################################################
+#!/system/bin/sh
+
 #
-# MMT Extended Config Script
+# Systemless Hosts by the
+# open source loving 'GL-DP' and all contributors;
+# Essential repack for latest Unified hosts, with 3 additional extensions
 #
-##########################################################################################
 
-##########################################################################################
-# Config Flags
-##########################################################################################
+# Checking for installation environment
+sleep 1
+if [ $BOOTMODE = true ]; then
+ ROOT=$(find `magisk --path` -type d -name "mirror" | head -n 1)
+ui_print "- Root path: $ROOT"
+else
+ ROOT=""
+fi
 
-# Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maximum android version for your mod
-# Uncomment DYNLIB if you want libs installed to vendor for oreo+ and system for anything older
-# Uncomment DEBUG if you want full debug logs (saved to /sdcard)
-#MINAPI=21
-#MAXAPI=25
-#DYNLIB=true
-#DEBUG=true
+# Check minimum API requirements
+sleep 1
+ui_print "- Checking API version" 
+ if [ $API -ge 21 ]; then
+sleep 1
+ui_print "   Reached minimum API requirements"
+sleep 1
+ui_print "   Continue installation"
+ break
+ else
+sleep 1
+ui_print "   Does not reached minimum API requirements"
+sleep 1
+   abort "   Aborting"
+ fi
 
-##########################################################################################
-# Replace list
-##########################################################################################
+# Search hosts file location
+sleep 1
+ui_print "- Searching hosts file location"
+ if [ -d /system/etc ]; then
+ PATH=/system/etc
+sleep 1
+ui_print "   File found in: $PATH" 
+ elif [ -d /system/product/etc ]; then
+ PATH=/system/product/etc
+sleep 1
+ui_print "   File found in: $PATH"
+ break
+ else
+sleep 1
+ui_print "   File not found"
+sleep 1
+   abort "   Aborting"
+ fi
 
-# List all directories you want to directly replace in the system
-# Check the documentations for more info why you would need this
+# Patch default hosts file
+sleep 1
+ui_print "- Patching hosts file"
+ mkdir -p $MODPATH$PATH
+ mv -f $MODPATH/hosts $MODPATH$PATH
+sleep 1
+ui_print "   Patched"
 
-# Construct your list in the following format
-# This is an example
-REPLACE_EXAMPLE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
-"
+# Clean up
+sleep 1
+ui_print "- Cleaning up"
+ rm -rf $MODPATH/hosts
+ rm -rf $MODPATH/LICENSE
 
-# Construct your own list here
-REPLACE="
-"
-
-##########################################################################################
-# Permissions
-##########################################################################################
-
-set_permissions() {
-  : # Remove this if adding to this function
-
-  # Note that all files/folders in magisk module directory have the $MODPATH prefix - keep this prefix on all of your files/folders
-  # Some examples:
-  
-  # For directories (includes files in them):
-  # set_perm_recursive  <dirname>                <owner> <group> <dirpermission> <filepermission> <contexts> (default: u:object_r:system_file:s0)
-  
-  # set_perm_recursive $MODPATH/system/lib 0 0 0755 0644
-  # set_perm_recursive $MODPATH/system/vendor/lib/soundfx 0 0 0755 0644
-
-  # For files (not in directories taken care of above)
-  # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
-  
-  # set_perm $MODPATH/system/lib/libart.so 0 0 0644
-  # set_perm /data/local/tmp/file.txt 0 0 644
-}
-
-##########################################################################################
-# MMT Extended Logic - Don't modify anything after this
-##########################################################################################
-
-SKIPUNZIP=1
-unzip -qjo "$ZIPFILE" 'common/functions.sh' -d $TMPDIR >&2
-. $TMPDIR/functions.sh
+sleep 1
+# Executing...
+# Done
