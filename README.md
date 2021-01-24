@@ -8,9 +8,9 @@
 
 ## Contents:
 - Base extensions   
-hosts: 3.3.4 (0118)   
-module: 15.5 (0118)   
-code: 155   
+hosts: 3.3.7 (0124)   
+module: 15.6 (0124)   
+code: 156   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
@@ -18,6 +18,6 @@ code: 155
 - [@JumbomanXDA](https://github.com/JumbomanXDA) / Custom installation script
 
 ## Extras:
-- Donation: [PayPal](https://paypal.me/gloeyisk) | [LiberaPay](https://liberapay.com/gloeyisk)
+- Donation: [PayPal](https://paypal.me/gloeyisk) - [LiberaPay](https://liberapay.com/gloeyisk)
 - Mirror Links: [Telegram](https://t.me/gldppc) - [Sourceforge](https://bit.ly/2YZyZlA)
 - Source Code: [GitHub](https://github.com/gloeyisk/SystemlessHosts)
