@@ -8,9 +8,9 @@
 
 ## Contents:
 - Base extensions   
-hosts: 3.3.8 (0125)   
-module: 15.7 (0125)   
-code: 157   
+hosts: 3.3.9 (0202)   
+module: 15.8 (0202)   
+code: 158   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
