@@ -3,14 +3,13 @@
 ## Overview:
 - Essential repack for latest Unified hosts, with 3 additional extensions.
 - Patching process is handled by a command script, which detects default hosts file location.
-- Support API 21 or later.
 - Support Magisk Live or Custom Recovery installations.
 
 ## Contents:
 - Base extensions   
-hosts: 3.4.0 (0217)   
-module: 16.0 (0217)   
-code: 160   
+hosts: 3.4.1 (0222)   
+module: 16.1 (0222)   
+code: 161   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template

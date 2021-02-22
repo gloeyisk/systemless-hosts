@@ -15,22 +15,6 @@ else
  ROOT=""
 fi
 
-# Check minimum API requirements
-sleep 1
-ui_print "- Checking API version" 
- if [ $API -ge 21 ]; then
-sleep 1
-ui_print "   Reached minimum API requirements"
-sleep 1
-ui_print "   Continue installation"
- break
- else
-sleep 1
-ui_print "   Does not reached minimum API requirements"
-sleep 1
-   abort "   Aborting"
- fi
-
 # Search hosts file location
 sleep 1
 ui_print "- Searching hosts file location"
@@ -55,8 +39,6 @@ sleep 1
 ui_print "- Patching hosts file"
  mkdir -p $MODPATH$PATH
  mv -f $MODPATH/hosts $MODPATH$PATH
-sleep 1
-ui_print "   Patched"
 
 # Clean up
 sleep 1
