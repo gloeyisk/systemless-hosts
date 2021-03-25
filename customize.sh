@@ -3,7 +3,7 @@
 #
 # Systemless Hosts by the
 # open source loving 'GL-DP' and all contributors;
-# Essential repack for latest Unified hosts, with 3 additional extensions
+# Consolidating and extending hosts files from several well-curated sources
 #
 
 # Checking for installation environment

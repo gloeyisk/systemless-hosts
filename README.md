@@ -1,15 +1,15 @@
 # Systemless Hosts
 
 ## Overview:
-- Essential repack for latest Unified hosts, with 3 additional extensions.
+- Consolidating and extending hosts files from several well-curated sources.
 - Patching process is handled by a command script, which detects default hosts file location.
 - Support Magisk Live or Custom Recovery installations.
 
 ## Contents:
 - Base extensions   
-hosts: 3.4.6 (0310)   
-module: 16.4 (0310)   
-code: 164   
+hosts: 3.5.2 (0325)   
+module: 16.5 (0325)   
+code: 165   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
