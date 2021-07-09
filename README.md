@@ -7,9 +7,9 @@
 
 ## Contents:
 - Base extensions   
-hosts: 3.7.0 (0506)   
-module: 16.6 (0506)   
-code: 166   
+hosts: 3.7.13 (0505)   
+module: 16.7 (0907)   
+code: 167   
 
 ## Credits:
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
@@ -18,5 +18,5 @@ code: 166
 
 ## Extras:
 - Donation: [PayPal](https://paypal.me/gloeyisk) - [LiberaPay](https://liberapay.com/gloeyisk)
-- Mirror Links: [Telegram](https://t.me/gldppc) - [Sourceforge](https://bit.ly/2YZyZlA) - [AndroidFileHost](https://bit.ly/3vPCx7Q)
+- Mirror Links: [Telegram](https://t.me/gldppc) - [Archive](https://tinyurl.com/dvbnjpub)
 - Source Code: [GitHub](https://github.com/gloeyisk/SystemlessHosts)
