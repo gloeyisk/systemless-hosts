@@ -1,6 +1,6 @@
-id=SystemlessHostsUnified
+id=systemless-hosts
 name=Systemless Hosts - Unified
-version=v210805-v16.8
-versionCode=168
+version=v16.9-210829
+versionCode=169
 author=gloeyisk
 description=Consolidating and extending hosts files from several well-curated sources

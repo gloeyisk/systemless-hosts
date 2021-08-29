@@ -14,29 +14,12 @@ else
  ROOT=""
 fi
 
-# Search hosts file location
-ui_print "- Searching hosts file location"
- if [ -d /system/etc ]; then
- PATH=/system/etc
-	ui_print "   File found in: $PATH" 
- elif [ -d /system/product/etc ]; then
- PATH=/system/product/etc
-	ui_print "   File found in: $PATH"
- break
- else
-	ui_print "   File not found"
-   abort "   Aborting"
- fi
-
 # Patch default hosts file
+PATH=/system/etc
 	ui_print "- Patching hosts file"
  mkdir -p $MODPATH$PATH
  mv -f $MODPATH/hosts $MODPATH$PATH
 
 # Clean up
-	ui_print "- Cleaning up"
  rm -rf $MODPATH/hosts
  rm -rf $MODPATH/LICENSE
-
-# Executing...
-# Done
