@@ -1,6 +1,6 @@
 id=systemless-hosts
 name=Systemless Hosts - Unified
-version=v16.9-210829
-versionCode=169
+version=17.0-220116
+versionCode=170
 author=gloeyisk
-description=Consolidating and extending hosts files from several well-curated sources
+description=An efficient ad blocker, with no user interface

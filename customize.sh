@@ -2,7 +2,7 @@
 
 #
 # Systemless Hosts by the
-# open source loving 'GL-DP' and all contributors;
+# open source loving GL-DP and all contributors;
 # Consolidating and extending hosts files from several well-curated sources
 #
 
@@ -17,9 +17,9 @@ fi
 # Patch default hosts file
 PATH=/system/etc
 	ui_print "- Patching hosts file"
- mkdir -p $MODPATH$PATH
- mv -f $MODPATH/hosts $MODPATH$PATH
+mkdir -p $MODPATH$PATH
+mv -f $MODPATH/hosts $MODPATH$PATH
 
 # Clean up
- rm -rf $MODPATH/hosts
- rm -rf $MODPATH/LICENSE
+rm -rf $MODPATH/hosts
+rm -rf $MODPATH/LICENSE
