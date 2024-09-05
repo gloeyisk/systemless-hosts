@@ -1,6 +1,7 @@
 id=systemless-hosts
 name=Systemless Hosts - Unified
-version=17.1-240831
-versionCode=171
+version=17.2-240906
+versionCode=172
 author=gloeyisk
 description=An efficient ad blocker, with no user interface
+updateJson=https://raw.githubusercontent.com/gloeyisk/systemless-hosts/master/module.json
